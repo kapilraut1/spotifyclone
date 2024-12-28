@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.border{
+    border: 3px solid black;
+    padding: 3px;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.br-ra{
+    border-radius:90%;
+}

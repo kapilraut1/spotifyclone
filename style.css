@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.left{
+    width: 25%;
+}
+
+.right{
+    width: 75%;
+}
+
+.home{
+width: 35px;
+background-color: white;
+}
+
+.navbar{
+    height: 48px;
+    justify-content:space-between;
+    margin: 10px;
+}
+
+.sign-in{
+    padding: 10px;
+    margin: 15px;
+}
