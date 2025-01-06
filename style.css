@@ -1,39 +1,50 @@
-body{
+*{
     margin: 0;
-    border: 0;
     padding: 0;
 }
 
+body{
+    background-color: white;
+    color: black;
+}
+
 .left{
-    width: 25%;
+    width: 25vw;
 }
 
 .right{
-    width: 75%;
+    width: 75vw;
 }
 
-.home{
-width: 35px;
-background-color: white;
+.navbar img{
+    gap: 19px;
+    width: 32px;
 }
 
 .navbar{
     height: 48px;
-    justify-content:space-between;
-    margin: 10px;
-    color: beige;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.sign-in{
-    padding: 10px;
-    margin: 15px;
+.logo{
+    margin: 30px;
+    width:32px ;
 }
 
-.search{
-    justify-items: space-around;
+.home img{
+    width: 20px;
 }
 
-.browse{
-    display: flex;
-    justify-content: space-around;
+.home{
+    width: 48px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-right: 15px;
+    align-items: center;
+}
+
+style{
+    width: 428px;
+    padding: 12px;
 }

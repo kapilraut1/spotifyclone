@@ -1,28 +1,30 @@
+
+/* xmlns="http://www.w3.org/2000/svg"  */
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
 .flex{
     display: flex;
 }
 
-.justify{
+.j-c{
     justify-content: center;
 }
 
-.items-center{
+.a-c{
     align-items: center;
 }
 
-.border{
-    border: 3px solid black;
-    padding: 3px;
+.invert{
+    filter: invert(1);
 }
 
-.around{
-    justify-content: space-around;
+.bg-black{
+    background-color: black;
 }
-
-.br-ra{
-    border-radius:90%;
-}
-
-.br{
-    border-radius: 15px;
+.bg-gray{
+    background-color: #1f1f1f;
 }
